@@ -55,7 +55,20 @@ To enable efficient text-based searching, create text indexes on the `username` 
 db.users.createIndex({ username: "text" })
 db.quizzes.createIndex({ topic: "text" })
 ```
+
 Text indexes in MongoDB allow for efficient searching of string content within fields. This can improve query performance significantly for search operations.
+
+## Development Server
+
+For development purposes, you can use the following credentials:
+
+- **Admin Login:**
+   - **Username:** jane_doe
+   - **Password:** doe@jane
+
+- **Student Login:**
+   - **Username:** john_doe
+   - **Password:** doe@jhon
 
 ## API Testing
 Use Postman to test the API endpoints. Ensure you include the JWT token in the Authorization header for secure endpoints.
