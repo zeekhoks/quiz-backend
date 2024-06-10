@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What is the capital of India?",
+    "options": ["Mumbai", "Kolkata", "New Delhi", "Bangalore"],
+    "correct_answer": "New Delhi",
+    "distractors": ["Mumbai", "Kolkata", "Bangalore"]
+  },
+  {
+    "question": "Which river is considered the holiest in India?",
+    "options": ["Yamuna", "Godavari", "Ganga", "Narmada"],
+    "correct_answer": "Ganga",
+    "distractors": ["Yamuna", "Godavari", "Narmada"]
+  }
+]
